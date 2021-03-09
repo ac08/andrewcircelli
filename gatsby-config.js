@@ -12,21 +12,39 @@ module.exports = {
     },
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          "@src": "src",
+          "@common": "src/components/common",
+          "@components": "src/components",
+          "@pages": "src/pages",
+          "@templates": "src/templates",
+        },
+        extensions: ["js"],
+      },
+    },
+    "gatsby-plugin-styled-components",
     `gatsby-plugin-image`,
+    // SOURCE FILE SYSTEM:
+    // SOURCE JSON
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
+        name: `json`,
+        path: `${__dirname}/content/json`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `blog`,
+        path: `${__dirname}/content/blog`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
+    // MARKDOWN
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -34,7 +52,8 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 630,
+              maxWidth: 590,
+              showCaptions: true,
             },
           },
           {
@@ -50,6 +69,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    // IMAGE TRANSFORMER
     `gatsby-plugin-sharp`,
     // {
     //   resolve: `gatsby-plugin-google-analytics`,
@@ -112,15 +132,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Portfolio build with @Gatsby`,
+        short_name: `portfolioJS`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
+        background_color: `#6D83F2`,
+        theme_color: `#6D83F2`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    // HELMET
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
