@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Andrew Circelli - Creative fullStack Developer`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Andrew Circelli`,
+      summary: `Andrew Circelli - fullStack web developer who loves what he can do with javascript and other modern technologies.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A portfolio and blog showing some of what I can do`,
+    siteUrl: `https://andrewcircelli.github.io`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `@twitter`,
     },
   },
   plugins: [
