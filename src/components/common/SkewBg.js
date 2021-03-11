@@ -1,17 +1,18 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 const SkewBg = styled.div`
   position: absolute;
+  opacity: 0.7;
   left: 0;
   width: 100%;
   min-height: 350px;
-  background: ${(p) =>
+  background: ${p =>
     p.theme.dark ? p.theme.secondaryColor : p.theme.gradient};
-  transform: skewY(-3deg);
-  z-index: -1;
+  /* transform: skewY(-2deg); */
+  /* z-index: -1; */
   pointer-events: none;
 
-  @media ${(props) => props.theme.media.tablet} {
+  @media ${props => props.theme.media.tablet} {
     width: unset;
     height: 90%;
     top: 100px;
@@ -19,6 +20,6 @@ const SkewBg = styled.div`
     right: -16px;
     bottom: 0;
   }
-`;
+`
 
-export default SkewBg;
+export default SkewBg

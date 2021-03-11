@@ -1,34 +1,34 @@
-import React from "react";
-import styled from "styled-components";
+import React from "react"
+import styled from "styled-components"
 
-import PageHeader from "@src/components/common/PageHeader";
-import Flex from "@src/components/common/Flex";
-import { Hidden } from "react-grid-system";
-import { FaReact, FaNodeJs } from "react-icons/fa";
-import { DiMongodb, DiJavascript1 } from "react-icons/di";
+import PageHeader from "@src/components/common/PageHeader"
+import Flex from "@src/components/common/Flex"
+import { Hidden } from "react-grid-system"
+import { FaReact, FaNodeJs } from "react-icons/fa"
+import { DiMongodb, DiJavascript1 } from "react-icons/di"
 
-import { Parallax, ParallaxProvider } from "react-scroll-parallax";
+import { Parallax, ParallaxProvider } from "react-scroll-parallax"
 
 const SkillsWrapper = styled.section`
   position: relative;
   .skill__icons {
     padding: 30px 0;
-    @media ${(props) => props.theme.media.tablet} {
+    @media ${props => props.theme.media.tablet} {
       padding: 10px 0;
     }
 
     .icons {
-      color: ${(props) => props.theme.primaryColor};
+      color: ${props => props.theme.primaryColor};
     }
   }
   .skills__word-clouds {
-    @media ${(props) => props.theme.media.tablet} {
+    @media ${props => props.theme.media.tablet} {
       display: none;
     }
 
     p {
       position: absolute;
-      color: ${(props) => props.theme.accentColor};
+      color: ${props => props.theme.accentColor};
       z-index: -1;
       left: 0;
       right: 0;
@@ -36,7 +36,7 @@ const SkillsWrapper = styled.section`
     }
     z-index: -1;
   }
-`;
+`
 
 const WordClouds = () => {
   return (
@@ -57,8 +57,8 @@ const WordClouds = () => {
       <p style={{ top: 350, left: 150, fontSize: 14 }}>GraphQL</p>
       <p style={{ top: 120, left: "22%", fontSize: 12 }}>Bootstrap</p>
     </Parallax>
-  );
-};
+  )
+}
 
 const Skills = () => (
   <SkillsWrapper>
@@ -66,10 +66,10 @@ const Skills = () => (
       <PageHeader>My Skillsets</PageHeader>
 
       <Flex className="skill__icons" justify="space-around" align="center">
-        <DiJavascript1 className="icons" size="50px" />
-        <DiMongodb className="icons" size="50px" />
-        <FaReact className="icons" size="50px" />
-        <FaNodeJs className="icons" size="50px" />
+        <DiJavascript1 className="icons" size="75px" />
+        <DiMongodb className="icons" size="75px" />
+        <FaReact className="icons" size="75px" />
+        <FaNodeJs className="icons" size="75px" />
       </Flex>
 
       <Hidden md xs sm>
@@ -77,6 +77,6 @@ const Skills = () => (
       </Hidden>
     </ParallaxProvider>
   </SkillsWrapper>
-);
+)
 
-export default Skills;
+export default Skills

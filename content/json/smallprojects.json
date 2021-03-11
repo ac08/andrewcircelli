@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Burger Eats",
+    "links": {
+      "demo": "https://andrewcircelli-heroku-burger.herokuapp.com/",
+      "src": "https://github.com/ac08/BurgerEats"
+    },
+    "description": "Express yourself! Burger Eats is a logger web application and is jam packed with modern technologies to deliver a viable to track your (burger) eats!"
+  },
+  {
+    "title": "Express Note",
+    "links": {
+      "demo": "https://github.com/ac08/ExpressNote",
+      "src": "https://github.com/ac08/ExpressNote"
+    },
+    "description": "Collect your thoughts and get ahead with Express Note. A Node-Express application."
+  },
+  {
+    "title": "Full Stack Fiit",
+    "links": {
+      "demo": "https://andrewcircelli-heroku-fiit.herokuapp.com/",
+      "src": "https://github.com/ac08/fullStackFiit"
+    },
+    "description": "Full Stack Fiit takes on your fitness goals and is made with Node.js Express.js and MongoDB."
+  },
+  {
+    "title": "Geek CLI",
+    "links": {
+      "demo": "https://github.com/ac08/geek-cli",
+      "src": "https://github.com/ac08/geek-cli"
+    },
+    "description": "Build our your software engineering team with this command-line-interface app hosted on Heroku."
+  },
+  {
+    "title": "jPlanner",
+    "links": {
+      "demo": "https://github.com/ac08/jPlanner",
+      "src": "https://github.com/ac08/jPlanner"
+    },
+    "description": "Day Plan with the jPlanner and dive deep to explore some of my jQuery skills."
+  }
+]

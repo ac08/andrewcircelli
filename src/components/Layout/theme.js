@@ -1,11 +1,11 @@
-import { css } from "styled-components";
+import { css } from "styled-components"
 
 export const sizes = {
   mobile: "480px",
   tablet: "768px",
   fablet: "1000px",
   desktop: "1200px",
-};
+}
 
 const themeCommon = {
   shadow: "0px 10px 10px rgba(0, 0, 0, 0.2)",
@@ -31,20 +31,22 @@ const themeCommon = {
   gradient: "linear-gradient(134deg, #6A98F0 0%, #4961DC 99%)",
   gradient2: "linear-gradient(99deg, #6A98F0 0%, #4961DC 130%)",
   swapIfDark(prop1, prop2) {
-    return `${this.dark ? this[prop1] : this[prop2]};`;
+    return `${this.dark ? this[prop1] : this[prop2]};`
   },
-};
+}
 
 export const themelight = {
   dark: false,
   bg: "#F8F8F8",
+  bgImage: "radial-gradient(#6D83F2 0.4px, #F8F8F8 0.4px)",
+  bgSize: "8px 8px",
   primaryColor: "#6D83F2",
   secondaryColor: "#F8F8F8",
   accentColor: "#C7D0FF",
   primaryBlack: "#383838",
   primaryText: "#383838",
   ...themeCommon,
-};
+}
 
 export const themedarkblue = {
   dark: true,
@@ -56,7 +58,7 @@ export const themedarkblue = {
   elevation0: "#6D83F2",
   primaryText: "#F8F8F8",
   ...themeCommon,
-};
+}
 
 export const themedark = {
   dark: true,
@@ -68,4 +70,4 @@ export const themedark = {
   elevation0: "#191919",
   primaryText: "#F8F8F8",
   ...themeCommon,
-};
+}

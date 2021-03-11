@@ -1,9 +1,9 @@
-import React from "react";
+import React from "react"
 
-import SkewBg from "@common/SkewBg";
-import PageHeader from "@common/PageHeader";
+import SkewBg from "@common/SkewBg"
+import PageHeader from "@common/PageHeader"
 
-import { AboutWrapper, AboutInfo } from "./About.style";
+import { AboutWrapper, AboutInfo } from "./About.style"
 
 const About = () => {
   return (
@@ -29,7 +29,7 @@ const About = () => {
         </p>
       </AboutInfo>
     </AboutWrapper>
-  );
-};
+  )
+}
 
-export default About;
+export default About

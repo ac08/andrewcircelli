@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
   body, html {
     height: 100%;
     font-size: calc(12px + 0.4vw);
-    font-family: ${(p) => p.theme.fontFamily};
+    font-family: ${p => p.theme.fontFamily};
     -webkit-font-smoothing: antialiased;
     font-display: fallback !important;
   }
@@ -16,30 +16,32 @@ const GlobalStyle = createGlobalStyle`
   body {
     /* overflow hidden for SmallProject's 100vw width div */
     overflow-x: hidden;
-    background-color: ${(p) => p.theme.bg};
-    color: ${(p) => p.theme.primaryText};
+    background-color: ${p => p.theme.bg};
+    background-size: ${p => p.theme.bgSize};
+    background-image: ${p => p.theme.bgImage};
+    color: ${p => p.theme.primaryText};
   }
 
   a {
-    color: ${(p) => p.theme.primaryColor};
+    color: ${p => p.theme.primaryColor};
     text-decoration: none;
   }
   a:hover {
-    color: ${(p) => p.theme.primaryText};
+    color: ${p => p.theme.primaryText};
   }
   
   h1, h2, h3, h4, h5, h6 {
     margin: 10px 0;
     line-height: 140%;
-    color: ${(p) => p.theme.primaryText};
+    color: ${p => p.theme.primaryText};
   }
   
   p {
     font-size: 16px;
     margin: 0;
     line-height: 150%;
-    font-family: ${(p) => p.theme.secondaryFontFamily};
-    color: ${(p) => p.theme.primaryText};
+    font-family: ${p => p.theme.secondaryFontFamily};
+    color: ${p => p.theme.primaryText};
   }
   
   ul {
@@ -59,8 +61,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   hr {
-    border: 1px solid ${(p) => p.theme.accentColor};
+    border: 1px solid ${p => p.theme.accentColor};
     margin: 30px 0;
   }
-`;
-export default GlobalStyle;
+`
+export default GlobalStyle

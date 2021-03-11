@@ -1,13 +1,14 @@
-import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
-import styled from "styled-components";
+import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
+import styled from "styled-components"
 
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 
-import { ProjectLinks } from "./ProjectTemplate.style";
-import { CardText } from "@common/Card";
+import { ProjectLinks } from "./ProjectTemplate.style"
+import { CardText } from "@common/Card"
+import Button, { IconButton } from "@common/Button"
 
 const settings = {
   dots: true,
@@ -40,7 +41,7 @@ const settings = {
       },
     },
   ],
-};
+}
 
 const InnerContent = styled.div`
   padding: 190px 0;
@@ -50,21 +51,22 @@ const InnerContent = styled.div`
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-`;
+`
 
 const BG = styled.div`
   position: absolute;
-  background: ${(p) =>
+  opacity: 0.7;
+  background: ${p =>
     p.theme.dark ? p.theme.secondaryColor : p.theme.gradient};
-  transform: skewY(-3deg);
+  /* transform: skewY(-3deg); */
   right: 0;
   left: 0;
   width: 100%;
   min-height: 630px;
   max-height: 740px;
-`;
+`
 const SmallProjectWrapper = styled.section`
-  ${(props) => props.theme.spacing.sectionBottom};
+  ${props => props.theme.spacing.sectionBottom};
 
   margin-top: 100px;
 
@@ -74,19 +76,19 @@ const SmallProjectWrapper = styled.section`
   .slick-slide {
     padding: 10px;
   }
-`;
+`
 
 const SmallProjectCard = styled.div`
   /* because of project links */
   position: relative;
 
-  background-color: ${(props) => props.theme.bg};
+  background-color: ${props => props.theme.bg};
   border-radius: 10px;
   padding: 30px;
   height: 280px;
 
   h3 {
-    /* color: ${(props) => props.theme.primaryColor}; */
+    /* color: ${props => props.theme.primaryColor}; */
     margin-bottom: 5px;
   }
 
@@ -94,7 +96,7 @@ const SmallProjectCard = styled.div`
     position: absolute;
     bottom: 20px;
   }
-`;
+`
 
 const SmallProjects = () => {
   const smallprojects = useStaticQuery(
@@ -115,7 +117,7 @@ const SmallProjects = () => {
         }
       }
     `
-  );
+  )
 
   return (
     <SmallProjectWrapper>
@@ -141,7 +143,7 @@ const SmallProjects = () => {
         </Slider>
       </InnerContent>
     </SmallProjectWrapper>
-  );
-};
+  )
+}
 
-export default SmallProjects;
+export default SmallProjects
