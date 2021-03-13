@@ -9,8 +9,8 @@ import PageHeader from "@common/PageHeader"
 import SmallProjects from "./SmallProjects"
 // import JsProjects from "./JsProjects";
 
-import ProjectTemplate from "./ProjectTemplate"
-import { ProjectLinks, ProjectPreview, Tags } from "./ProjectTemplate.style"
+// import ProjectTemplate from "./ProjectTemplate"
+// import { ProjectLinks, ProjectPreview, Tags } from "./ProjectTemplate.style"
 
 const ProjectsWrapper = styled.section`
   ${props => props.theme.spacing.sectionBottom};

@@ -2,7 +2,7 @@
 title: Using Mongoose Discriminators
 date: 2021-03-01 12:00:00
 author: Andrew Circelli
-tags: ["Mongoose", "creative-schema-designs", "discriminators"]
+tags: ["mongoose", "creative-schema-designs", "discriminators"]
 path: using-mongoose-discriminators
 ---
 
