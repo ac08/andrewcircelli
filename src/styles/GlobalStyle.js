@@ -1,4 +1,6 @@
 import { createGlobalStyle } from "styled-components"
+import blogstyles from "./blogcss.style"
+import prismjsstyles from "./prismjs.style"
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -9,7 +11,6 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
     font-size: calc(12px + 0.4vw);
     font-family: ${p => p.theme.fontFamily};
-    -webkit-font-smoothing: antialiased;
     font-display: fallback !important;
   }
 
@@ -61,8 +62,10 @@ const GlobalStyle = createGlobalStyle`
   }
 
   hr {
-    border: 1px solid ${p => p.theme.accentColor};
+    border: 1.5px solid ${p => p.theme.accentColor};
     margin: 30px 0;
   }
+  ${blogstyles}
+  ${prismjsstyles}
 `
 export default GlobalStyle

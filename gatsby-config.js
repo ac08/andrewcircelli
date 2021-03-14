@@ -63,6 +63,14 @@ module.exports = {
             },
           },
           {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              className: `gatsby-remark-autolink`,
+              maintainCase: true,
+              removeAccents: true,
+            },
+          },
+          {
             resolve: `gatsby-remark-prismjs`,
             options: {
               classPrefix: "language-",
@@ -72,8 +80,8 @@ module.exports = {
               noInlineHighlight: false,
             },
           },
-          `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`,
+          // `gatsby-remark-copy-linked-files`,
+          // `gatsby-remark-smartypants`,
         ],
       },
     },
