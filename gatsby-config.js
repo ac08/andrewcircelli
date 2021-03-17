@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/andrewcircelli.github.io",
+  pathPrefix: "/",
   siteMetadata: {
     title: `Andrew Circelli - Creative fullStack Developer`,
     author: {
