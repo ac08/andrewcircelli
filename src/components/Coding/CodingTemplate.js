@@ -4,7 +4,7 @@ import {
   ProjectContent,
   ProjectDetail,
   ProjectWrapper,
-} from "./ProjectTemplate.style"
+} from "./CodingTemplate.style"
 
 const ProjectTemplate = ({ title, desc, links, preview }) => {
   return (
@@ -17,8 +17,8 @@ const ProjectTemplate = ({ title, desc, links, preview }) => {
             {links}
           </div>
         </ProjectDetail>
-
-        {preview}
+        {/* conditional preview render for project work */}
+        {preview ? preview : ""}
       </ProjectContent>
     </ProjectWrapper>
   )

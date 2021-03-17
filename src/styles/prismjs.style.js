@@ -1,13 +1,6 @@
 import { css } from "styled-components"
 
 const prismjsstyles = css`
-  blockquote {
-    border-left: 5px solid ${p => p.theme.accentColor};
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 3px;
-  }
-
   .gatsby-highlight {
     /* actual code */
     code {

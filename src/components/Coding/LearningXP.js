@@ -6,7 +6,7 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
-import { ProjectLinks } from "./ProjectTemplate.style"
+import { ProjectLinks } from "./CodingTemplate.style"
 import { CardText } from "@common/Card"
 import Button, { IconButton } from "@common/Button"
 
@@ -98,7 +98,7 @@ const SmallProjectCard = styled.div`
   }
 `
 
-const SmallProjects = () => {
+const LearningXP = () => {
   const smallprojects = useStaticQuery(
     graphql`
       query {
@@ -135,7 +135,7 @@ const SmallProjects = () => {
                 <IconButton
                   label="github"
                   href={node.links.src}
-                  icon={["fab", "github"]}
+                  icon={"github"}
                 />
               </ProjectLinks>
             </SmallProjectCard>
@@ -146,4 +146,4 @@ const SmallProjects = () => {
   )
 }
 
-export default SmallProjects
+export default LearningXP

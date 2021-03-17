@@ -1,6 +1,6 @@
-import React from "react";
-import Link from "gatsby-link";
-import { Link as SLink } from "react-scroll";
+import React from "react"
+import Link from "gatsby-link"
+import { Link as SLink } from "react-scroll"
 
 const NavItemsSmoothLinks = ({ NavItem }) => (
   <>
@@ -15,17 +15,17 @@ const NavItemsSmoothLinks = ({ NavItem }) => (
       </SLink>
     </NavItem>
     <NavItem>
+      <SLink smooth offset={-100} hashSpy to="skills">
+        skills
+      </SLink>
+    </NavItem>
+    <NavItem>
       <SLink smooth offset={-100} hashSpy to="coding">
         coding
       </SLink>
     </NavItem>
-    <NavItem>
-      <SLink smooth offset={-100} hashSpy to="contact">
-        contact
-      </SLink>
-    </NavItem>
   </>
-);
+)
 
 const NavItemsGatsbyLinks = ({ NavItem }) => (
   <>
@@ -42,12 +42,12 @@ const NavItemsGatsbyLinks = ({ NavItem }) => (
       <Link to="/#contact">contact</Link>
     </NavItem>
   </>
-);
+)
 
 const NavLinks = React.memo(({ NavItem }) => {
-  let path = null;
+  let path = null
   if (typeof window !== "undefined") {
-    path = window.location.pathname;
+    path = window.location.pathname
   }
 
   return (
@@ -58,7 +58,7 @@ const NavLinks = React.memo(({ NavItem }) => {
         <NavItemsGatsbyLinks NavItem={NavItem} />
       )}
     </>
-  );
-});
+  )
+})
 
-export default NavLinks;
+export default NavLinks

@@ -33,7 +33,7 @@ const ThingsImDoing = () => (
     </Card>
     <Card>
       <CardIcon>{<GiPaintBrush icon="paint" />}</CardIcon>
-      <CardTitle>Looking</CardTitle>
+      <CardTitle>Creating</CardTitle>
       <CardText>
         I am looking to see how I can merge my skills on the Salesforce Platform
         with my FullStack toolset.
@@ -59,7 +59,11 @@ const Home = () => {
               Download Resume
             </Button>
             <div className="home__social">
-              <IconLink label="github" icon="github" href="//github.com/ac08" />
+              <IconLink
+                label="github"
+                icon="github"
+                href="//github.com/andrewcircelli"
+              />
               <IconLink
                 label="linkedin"
                 icon="linkedin"

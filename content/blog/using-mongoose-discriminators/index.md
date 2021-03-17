@@ -4,6 +4,7 @@ date: 2021-03-01 12:00:00
 author: Andrew Circelli
 tags: ["mongoose", "creative-schema-designs", "discriminators"]
 path: using-mongoose-discriminators
+type: blog
 ---
 
 Hey all! A few weeks ago in designing my FullStackFutures web application, I accepted the challenge to identify a functional solution to the project's MongoDB schema business requirement.
@@ -76,13 +77,13 @@ soccer.save((err, savedSoccer) => {
 })
 ```
 
-In this example, we have two models: MusicEvent and SportingEvent and if we run this, we will end up with two collections in MongoDB.`
+In this example, we have two models: MusicEvent and SportingEvent and if we run this, we will end up with two collections in MongoDB.
 
 ## Discriminator Keys
 
 Discriminators in Mongoose allows us to specify one property (key) in a document that we'll use to discriminate between different types of entities, and allow us to store different types of entities in the same collection.
 
-> The way mongoose tells the difference between the different discriminator models is by the 'discriminator key'.
+> The way mongoose tells the difference between the different discriminator models is by the _discriminator key_.
 
 ## My Take
 
@@ -97,6 +98,7 @@ So, different profile types (athlete, military, student), with slightly differen
 First step is to create the base (parent) schema. These are properties that all child schemas will inherit from:
 
 ```javascript
+// base.model.js
 const baseOptions = {
   discriminatorKey: "profileType",
 }
@@ -131,6 +133,7 @@ const ProfileModel = mongoose.model("Profile", Base)
 That was simple enough. Now let's extend the Profile Model, for those profiles classified as an athlete:
 
 ```javascript
+// athlete.model.js
 const athleteSchema = new Schema({
   sport: {
     type: String,
@@ -143,11 +146,12 @@ const athleteSchema = new Schema({
 const AthleteModel = ProfileModel.discriminator("athlete", athleteSchema)
 ```
 
-See what we did there? We created the Athelete's Schema as we normally would. But at the end we used the model dot discriminator function to allow the properties of the Profile Schema to become available to the Athlete Schema on create. Oh, and the "athlete" string there populates under each document's profileType property. This **discriminates** between the entities in the collection.
+See what we did there? We created the Athelete's Schema as we normally would. But at the end we used the model dot discriminator function to allow the properties of the Profile Schema to become available to the Athlete Schema on create. Oh, and the "athlete" string there populates under each document's _profileType_ property. This **discriminates** between the entities in the collection.
 
 Now let's extend the Profile Schema once more. This time for those profiles classified as a "student":
 
 ```javascript
+// student.model.js
 const studentSchema = new Schema({
   university: { type: String, required: true },
   GPA: { type: Number },
@@ -167,9 +171,9 @@ ProfileModel.find(}, function (err, profileDocs) {
 });
 ```
 
-To recap, in this example, we have three models: ProfileModel, AthleteModel, and StudentModel. And if we run this, we will end up with a single collection in MongoDB, "profiles". And the "profiles" collection would house the athlete profile documents (profileType: "athlete") as well as the student profile documents (profileType: "student").`
+To recap, in this example, we have three models: _ProfileModel_, _AthleteModel_, and _StudentModel_. And if we run this, we will end up with a single collection in MongoDB, _profiles_. And the _profiles_ collection would house the athlete profile documents (_profileType_: "athlete") as well as the student profile documents (_profileType_: "student").`
 
-> [view my full code on github](https://github.com/ac08/FullStackFutures/)
+> [view my full code on github](https://github.com/andrewcircelli/FullStackFutures/)
 
 ANNNDDD THATS IT! Feel free to reference this page when you have a similar schema design pattern.
 

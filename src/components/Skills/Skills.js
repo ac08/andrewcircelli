@@ -61,7 +61,7 @@ const WordClouds = () => {
 }
 
 const Skills = () => (
-  <SkillsWrapper>
+  <SkillsWrapper id="skills">
     <ParallaxProvider>
       <PageHeader>My Skillsets</PageHeader>
 

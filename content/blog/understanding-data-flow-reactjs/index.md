@@ -4,6 +4,7 @@ date: 2021-03-10 12:00:00
 author: Andrew Circelli
 tags: ["react.js", "creative-data-visualizations", "data-flow"]
 path: understanding-data-flow-reactjs
+type: blog
 ---
 
 A couple months ago, when I was attending Case Western Reserve University's (Ohio) software development program, I was introduced to Facebook's React.js for the first time. And it totally changed the way I thought about web applications and more specifically, what I thought about User Interface design and development.
@@ -81,7 +82,7 @@ The props store the data passed from the parent to the child component. You can 
 
 Let's visualize the same component tree, with state in mind:
 
-![Componicate with State](./images/index_state.png)
+![Componicate with State](./images/state_index.png)
 
 Alright, so check this out. At the top level, _App_ component, I declare state to track whether the end user is signed in, along with the details of the signed in user:
 
@@ -126,7 +127,7 @@ const [user, setUser] = useState({
 
 Swiping to the right we can begin to visualize the state management techniques implemented within the profiles route:
 
-![Componicate with State](./images/profiles_state.png)
+![Componicate with State](./images/state_profiles.png)
 
 Let's start with the **useParams React Hook** called on the _Home_ component. This fetches the _profileTye_ param nested in the URL. I then pass that value down through props to each of the "ProfileHome" Page Components we listed earlier. Also on the _Home_ component I utilize the **useEffect React Hook** to make an axios (API) call to our MongoDB database.
 
@@ -187,13 +188,13 @@ export default Home
 
 Let's focus on the code on lines 7-30. Here I bundle an API call to our database...I write about my creative route handling **here**... The returned dataset a list of profiles that is then set in _state_ using **setProfiles**. So now that we have those profiles available on the front-end we pass it down to each of the "ProfileHome" Page Components through props.
 
-> [view my full code on github](https://github.com/ac08/FullStackFutures/)
+> [view my full code on github](https://github.com/andrewcircelli/FullStackFutures/)
 
 And the rest is magic!
 
 Links and Learning Resources:
 
 - [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
-- [Build Your Own](miro.com)
+- [Build Your Own](http://www.miro.com)
 
 Thank you for reading!

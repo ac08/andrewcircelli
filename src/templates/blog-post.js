@@ -1,18 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { BsCalendar } from "react-icons/bs"
+import { BlogDate } from "@components/Blog/BlogCard"
 
 import Layout from "@components/Layout/Layout"
-
-export const BlogDate = ({ date }) => (
-  <span style={{ fontSize: 13, color: "gray" }}>
-    <span>
-      <BsCalendar color="gray" />
-      &nbsp;&nbsp;{date}
-    </span>
-    &nbsp;&nbsp;&nbsp;
-  </span>
-)
 
 const BlogPost = ({ data }) => {
   const { title, date } = data.markdownRemark.frontmatter

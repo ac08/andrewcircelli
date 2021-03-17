@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import Wrapper from "@common/Wrapper";
+import styled from "styled-components"
+import Wrapper from "@common/Wrapper"
 
 export const NavWrapper = styled.div`
   position: fixed;
@@ -11,8 +11,8 @@ export const NavWrapper = styled.div`
   height: 60px;
   width: 100vw;
 
-  background-color: ${(props) => props.theme.secondaryColor};
-  box-shadow: ${(props) => props.theme.shadowSmall};
+  background-color: ${props => props.theme.secondaryColor};
+  box-shadow: ${props => props.theme.shadowSmall};
   z-index: 1000;
 
   .logo {
@@ -20,10 +20,10 @@ export const NavWrapper = styled.div`
     cursor: pointer;
   }
   .grid-icon {
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
   }
-`;
+`
 
 export const NavItems = styled.ul`
   margin: 0;
@@ -31,7 +31,7 @@ export const NavItems = styled.ul`
   display: flex;
   align-items: center;
   transition: 0.2s;
-`;
+`
 
 export const NavItem = styled.li`
   margin-left: 30px;
@@ -39,19 +39,17 @@ export const NavItem = styled.li`
   text-align: center;
 
   a {
-    color: ${(p) =>
-      p.theme.dark ? p.theme.primaryText : p.theme.primaryColor};
+    color: ${p => (p.theme.dark ? p.theme.primaryText : p.theme.primaryColor)};
   }
 
   a:hover {
     cursor: pointer;
-    color: ${(p) =>
-      p.theme.dark ? p.theme.primaryColor : p.theme.primaryText};
+    color: ${p => (p.theme.dark ? p.theme.primaryColor : p.theme.primaryText)};
   }
-`;
+`
 
 export const NavContent = styled(Wrapper)`
   display: flex;
   justify-content: space-between;
   align-items: center;
-`;
+`

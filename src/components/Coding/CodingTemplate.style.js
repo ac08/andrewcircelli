@@ -1,20 +1,24 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const ProjectWrapper = styled.section`
   margin: 80px 0;
-`;
+`
 
 export const ProjectContent = styled.div`
   display: grid;
   grid-template-columns: 1fr 170px 1fr;
   grid-template-rows: 1fr;
   align-items: center;
-`;
+  img {
+    width: 590px;
+    border-radius: 10px;
+  }
+`
 
 export const ProjectDetail = styled.div`
   padding: 50px;
-  background-color: ${(props) => props.theme.secondaryColor};
-  box-shadow: ${(props) => props.theme.shadowSmall};
+  background-color: ${props => props.theme.secondaryColor};
+  box-shadow: ${props => props.theme.shadowSmall};
   border-radius: 10px;
 
   min-height: 350px;
@@ -35,7 +39,7 @@ export const ProjectDetail = styled.div`
     }
   }
 
-  @media ${(props) => props.theme.media.fablet} {
+  @media ${props => props.theme.media.fablet} {
     min-height: unset;
     grid-column: 1 / 4;
     grid-row: unset;
@@ -48,7 +52,7 @@ export const ProjectDetail = styled.div`
       }
     }
   }
-`;
+`
 
 export const ProjectLinks = styled.div`
   display: flex;
@@ -59,7 +63,7 @@ export const ProjectLinks = styled.div`
   a {
     margin-right: 10px;
   }
-`;
+`
 
 export const ProjectPreview = styled.div`
   grid-column: 2 / 4;
@@ -67,7 +71,7 @@ export const ProjectPreview = styled.div`
   position: relative;
   right: -20px;
 
-  @media ${(props) => props.theme.media.fablet} {
+  @media ${props => props.theme.media.fablet} {
     right: 0;
     grid-column: 1 / 4;
     margin-bottom: 20px;
@@ -76,19 +80,4 @@ export const ProjectPreview = styled.div`
   iframe {
     border-radius: 10px;
   }
-`;
-export const Tags = styled.div`
-  @media ${(props) => props.theme.media.fablet} {
-    display: none;
-  }
-
-  margin: 10px;
-  color: ${(props) => props.theme.primaryColor};
-  display: flex;
-  font-size: 24px;
-
-  svg,
-  i {
-    margin-right: 25px;
-  }
-`;
+`

@@ -7,7 +7,7 @@ import { BsCalendar } from "react-icons/bs"
 const PostWrapper = styled.article`
   overflow: auto;
   margin-bottom: 70px;
-  /* margin-top: 100px; */
+  margin-top: 100px;
   padding: 30px 30px;
   border-top: 5px solid
     ${p => (p.theme.dark ? p.theme.accentColor : p.theme.primaryColor)};
@@ -25,7 +25,7 @@ const PostWrapper = styled.article`
   }
 `
 export const BlogDate = ({ date }) => (
-  <span style={{ fontSize: 13, color: "gray" }}>
+  <span>
     <span>
       <BsCalendar color="gray" />
       &nbsp;&nbsp;{date}
@@ -42,7 +42,13 @@ const BlogCard = ({ date, title, excerpt, slug, tags }) => {
         <h2>{title}</h2>
         <p>{excerpt}</p>
         {tags.map((tag, i) => (
-          <span key={i} style={{ marginRight: "1.2rem" }}>
+          <span
+            key={i}
+            style={{
+              fontSize: "0.75rem",
+              marginRight: "1.2rem",
+            }}
+          >
             {tag}
           </span>
         ))}

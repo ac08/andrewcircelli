@@ -1,6 +1,12 @@
 import { css } from "styled-components"
 
 const blogstyles = css`
+  blockquote {
+    border-left: 5px solid ${p => p.theme.accentColor};
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 3px;
+  }
   .markdown-content {
     ${p => p.theme.spacing.sectionTopBottom};
     margin-top: 50px;
@@ -31,6 +37,8 @@ const blogstyles = css`
       font-style: italic;
       font-size: 12px;
       text-align: center;
+      border-left: 5px solid ${p => p.theme.accentColor};
+      border-right: 5px solid ${p => p.theme.accentColor};
     }
 
     h1 {
