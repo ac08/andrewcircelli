@@ -6,7 +6,7 @@ import {
   ProjectWrapper,
 } from "./CodingTemplate.style"
 
-const ProjectTemplate = ({ title, desc, links, preview }) => {
+const ProjectTemplate = ({ title, desc, links }) => {
   return (
     <ProjectWrapper>
       <ProjectContent>
@@ -17,8 +17,6 @@ const ProjectTemplate = ({ title, desc, links, preview }) => {
             {links}
           </div>
         </ProjectDetail>
-        {/* conditional preview render for project work */}
-        {preview ? preview : ""}
       </ProjectContent>
     </ProjectWrapper>
   )

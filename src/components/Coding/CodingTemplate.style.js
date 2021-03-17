@@ -5,14 +5,7 @@ export const ProjectWrapper = styled.section`
 `
 
 export const ProjectContent = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 170px 1fr;
-  grid-template-rows: 1fr;
   align-items: center;
-  img {
-    width: 590px;
-    border-radius: 10px;
-  }
 `
 
 export const ProjectDetail = styled.div`
@@ -62,22 +55,5 @@ export const ProjectLinks = styled.div`
 
   a {
     margin-right: 10px;
-  }
-`
-
-export const ProjectPreview = styled.div`
-  grid-column: 2 / 4;
-  grid-row: 1;
-  position: relative;
-  right: -20px;
-
-  @media ${props => props.theme.media.fablet} {
-    right: 0;
-    grid-column: 1 / 4;
-    margin-bottom: 20px;
-  }
-
-  iframe {
-    border-radius: 10px;
   }
 `

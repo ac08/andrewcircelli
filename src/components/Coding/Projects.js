@@ -4,8 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Button, { IconButton } from "@common/Button"
 
 import ProjectTemplate from "./CodingTemplate"
-import { ProjectLinks, ProjectPreview } from "./CodingTemplate.style"
-import ffs_home from "./_images/ffs_home.png"
+import { ProjectLinks } from "./CodingTemplate.style"
 
 const Projects = () => {
   const projects = useStaticQuery(
@@ -55,11 +54,6 @@ const Projects = () => {
                 href={node.frontmatter.info.src}
               />
             </ProjectLinks>
-          }
-          preview={
-            <ProjectPreview>
-              <img src={ffs_home} />
-            </ProjectPreview>
           }
         />
       ))}

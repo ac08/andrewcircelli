@@ -25,5 +25,3 @@ the futures application to begin to build and track your child's achievements fo
 administrators to see. Even, say you're interested in joining the US military out of high school,
 you can use the futures application to display your accolades with recruiters from any of the
 nation's top military branches.
-
-img: ![A Component Tree - Couple Levels Deep](./images/app.png)
