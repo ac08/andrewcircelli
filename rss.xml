@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Andrew Circelli - Creative fullStack Developer]]></title><description><![CDATA[A portfolio and blog showing some of what I can do]]></description><link>https://andrewcircelli.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 17 Mar 2021 13:08:18 GMT</lastBuildDate><item><title><![CDATA[NewsDeck]]></title><description><![CDATA[Use Case Work in progress]]></description><link>https://andrewcircelli.github.ionews-deck</link><guid isPermaLink="false">https://andrewcircelli.github.ionews-deck</guid><content:encoded>&lt;h3 id=&quot;Use-Case&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#Use-Case&quot; aria-label=&quot;Use Case permalink&quot; class=&quot;gatsby-remark-autolink before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Use Case&lt;/h3&gt;
-&lt;p&gt;Work in progress&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Creative Odds]]></title><description><![CDATA[Use Case Work in progress]]></description><link>https://andrewcircelli.github.ioodds</link><guid isPermaLink="false">https://andrewcircelli.github.ioodds</guid><content:encoded>&lt;h3 id=&quot;Use-Case&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#Use-Case&quot; aria-label=&quot;Use Case permalink&quot; class=&quot;gatsby-remark-autolink before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Use Case&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Andrew Circelli - Creative fullStack Developer]]></title><description><![CDATA[A portfolio and blog showing some of what I can do]]></description><link>https://andrewcircelli.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 17 Mar 2021 13:15:54 GMT</lastBuildDate><item><title><![CDATA[NewsDeck]]></title><description><![CDATA[Use Case Work in progress]]></description><link>https://andrewcircelli.github.ionews-deck</link><guid isPermaLink="false">https://andrewcircelli.github.ionews-deck</guid><content:encoded>&lt;h3 id=&quot;Use-Case&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#Use-Case&quot; aria-label=&quot;Use Case permalink&quot; class=&quot;gatsby-remark-autolink before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Use Case&lt;/h3&gt;
 &lt;p&gt;Work in progress&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Full Stack Futures]]></title><description><![CDATA[Use Case Say you are an All-American high school athlete from a small town. You can use my futures
 application to stack your achievements…]]></description><link>https://andrewcircelli.github.iofull-stack-futures</link><guid isPermaLink="false">https://andrewcircelli.github.iofull-stack-futures</guid><content:encoded>&lt;h3 id=&quot;Use-Case&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#Use-Case&quot; aria-label=&quot;Use Case permalink&quot; class=&quot;gatsby-remark-autolink before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Use Case&lt;/h3&gt;
 &lt;p&gt;Say you are an All-American high school athlete from a small town. You can use my futures
@@ -8,7 +7,8 @@ see. Or maybe you&apos;re a parent and see your young child excel in every subje
 the futures application to begin to build and track your child&apos;s achievements for university
 administrators to see. Even, say you&apos;re interested in joining the US military out of high school,
 you can use the futures application to display your accolades with recruiters from any of the
-nation&apos;s top military branches.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Creative Route Handling with Node.js + Express.js]]></title><description><![CDATA[Create Read Update Delete (CRUD) operations are a fundamental piece of any backend software. And the most popular backend web application…]]></description><link>https://andrewcircelli.github.iocreative-routes</link><guid isPermaLink="false">https://andrewcircelli.github.iocreative-routes</guid><pubDate>Sun, 14 Mar 2021 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Create Read Update Delete (CRUD) operations are a fundamental piece of any backend software. And the most popular backend web application framework for Node.js is undoubtedly Express.js.&lt;/p&gt;
+nation&apos;s top military branches.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Creative Odds]]></title><description><![CDATA[Use Case Work in progress]]></description><link>https://andrewcircelli.github.ioodds</link><guid isPermaLink="false">https://andrewcircelli.github.ioodds</guid><content:encoded>&lt;h3 id=&quot;Use-Case&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#Use-Case&quot; aria-label=&quot;Use Case permalink&quot; class=&quot;gatsby-remark-autolink before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Use Case&lt;/h3&gt;
+&lt;p&gt;Work in progress&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Creative Route Handling with Node.js + Express.js]]></title><description><![CDATA[Create Read Update Delete (CRUD) operations are a fundamental piece of any backend software. And the most popular backend web application…]]></description><link>https://andrewcircelli.github.iocreative-routes</link><guid isPermaLink="false">https://andrewcircelli.github.iocreative-routes</guid><pubDate>Sun, 14 Mar 2021 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Create Read Update Delete (CRUD) operations are a fundamental piece of any backend software. And the most popular backend web application framework for Node.js is undoubtedly Express.js.&lt;/p&gt;
 &lt;p&gt;Express.js was introduced to me early on in my coding journey, and I love what I can do with it. So I was excited when I was tasked to create an API to handle frontend data requests for an exciting professional networking application, FullStackFutures.&lt;/p&gt;
 &lt;p&gt;I will use this post to walk through what I believe to be a confident backend solution to my application&apos;s routing challenge.&lt;/p&gt;
 &lt;p&gt;Table of Contents&lt;/p&gt;
@@ -106,7 +106,7 @@ profileRouter
   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot; style=&quot;white-space: normal; width: auto; left: 0;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This is where we get creative. The route &lt;em&gt;(&quot;/api/profiles/:profileType&quot;)&lt;/em&gt; integrates a request param (&lt;em&gt;:profileType&lt;/em&gt;) and responds to either an API GET or POST request. As soon as the requests connects to the server, the server retreives the request param and passes its value to the request (req) object. This value is can also be attached to the &lt;em&gt;req.locals&lt;/em&gt; object, but I preferred to set the variable directly onto the request body. The value will persist for the lifecycle of the request.&lt;/p&gt;
 &lt;p&gt;The value of the request param is also thrown into a switch-case statement. The switch-case statement will set another variable on the request.body (&lt;em&gt;req.Model&lt;/em&gt;), and this time, it will equate to the a specific data model defined.&lt;/p&gt;
-&lt;p&gt;Now that we have set the stage, we can walk through the API GET and POST requests that this route handles. All API GET requests to this route, will return all profile documents in the &lt;em&gt;profiles&lt;/em&gt; collection where the &lt;em&gt;profileType&lt;/em&gt; is set to the value stored on &lt;em&gt;req.profileType&lt;/em&gt; (for more information on this application&apos;s database schema see my post &lt;a href=&quot;/andrewcircelli.github.io/blog/using-mongoose-discriminators&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now that we have set the stage, we can walk through the API GET and POST requests that this route handles. All API GET requests to this route, will return all profile documents in the &lt;em&gt;profiles&lt;/em&gt; collection where the &lt;em&gt;profileType&lt;/em&gt; is set to the value stored on &lt;em&gt;req.profileType&lt;/em&gt; (for more information on this application&apos;s database schema see my post &lt;a href=&quot;/blog/using-mongoose-discriminators&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Even cooler, when an API POST request is sent to this route, a new profile document will be created based on the model version stored on the request object (&lt;em&gt;req.Model&lt;/em&gt;).&lt;/p&gt;
 &lt;p&gt;I hope you enjoyed my router design and welcome you to use a similar design in your projects in the future.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -137,7 +137,7 @@ profileRouter
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/andrewcircelli.github.io/static/59c7fb81efc75fc418c5dbf4f5b37e30/82747/app.png&quot;
+    href=&quot;/static/59c7fb81efc75fc418c5dbf4f5b37e30/82747/app.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -150,13 +150,13 @@ profileRouter
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;A Component Tree - Couple Levels Deep&quot;
         title=&quot;A Component Tree - Couple Levels Deep&quot;
-        src=&quot;/andrewcircelli.github.io/static/59c7fb81efc75fc418c5dbf4f5b37e30/fcda8/app.png&quot;
-        srcset=&quot;/andrewcircelli.github.io/static/59c7fb81efc75fc418c5dbf4f5b37e30/12f09/app.png 148w,
-/andrewcircelli.github.io/static/59c7fb81efc75fc418c5dbf4f5b37e30/e4a3f/app.png 295w,
-/andrewcircelli.github.io/static/59c7fb81efc75fc418c5dbf4f5b37e30/fcda8/app.png 590w,
-/andrewcircelli.github.io/static/59c7fb81efc75fc418c5dbf4f5b37e30/efc66/app.png 885w,
-/andrewcircelli.github.io/static/59c7fb81efc75fc418c5dbf4f5b37e30/c83ae/app.png 1180w,
-/andrewcircelli.github.io/static/59c7fb81efc75fc418c5dbf4f5b37e30/82747/app.png 2232w&quot;
+        src=&quot;/static/59c7fb81efc75fc418c5dbf4f5b37e30/fcda8/app.png&quot;
+        srcset=&quot;/static/59c7fb81efc75fc418c5dbf4f5b37e30/12f09/app.png 148w,
+/static/59c7fb81efc75fc418c5dbf4f5b37e30/e4a3f/app.png 295w,
+/static/59c7fb81efc75fc418c5dbf4f5b37e30/fcda8/app.png 590w,
+/static/59c7fb81efc75fc418c5dbf4f5b37e30/efc66/app.png 885w,
+/static/59c7fb81efc75fc418c5dbf4f5b37e30/c83ae/app.png 1180w,
+/static/59c7fb81efc75fc418c5dbf4f5b37e30/82747/app.png 2232w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -184,7 +184,7 @@ profileRouter
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/andrewcircelli.github.io/static/bf926894d989376a82ba794bfb9b312c/5ba90/carousel.png&quot;
+    href=&quot;/static/bf926894d989376a82ba794bfb9b312c/5ba90/carousel.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -197,13 +197,13 @@ profileRouter
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Visualization of one of the &amp;quot;ProfileHome&amp;quot; Page Components&quot;
         title=&quot;Visualization of one of the &amp;quot;ProfileHome&amp;quot; Page Components&quot;
-        src=&quot;/andrewcircelli.github.io/static/bf926894d989376a82ba794bfb9b312c/fcda8/carousel.png&quot;
-        srcset=&quot;/andrewcircelli.github.io/static/bf926894d989376a82ba794bfb9b312c/12f09/carousel.png 148w,
-/andrewcircelli.github.io/static/bf926894d989376a82ba794bfb9b312c/e4a3f/carousel.png 295w,
-/andrewcircelli.github.io/static/bf926894d989376a82ba794bfb9b312c/fcda8/carousel.png 590w,
-/andrewcircelli.github.io/static/bf926894d989376a82ba794bfb9b312c/efc66/carousel.png 885w,
-/andrewcircelli.github.io/static/bf926894d989376a82ba794bfb9b312c/c83ae/carousel.png 1180w,
-/andrewcircelli.github.io/static/bf926894d989376a82ba794bfb9b312c/5ba90/carousel.png 1604w&quot;
+        src=&quot;/static/bf926894d989376a82ba794bfb9b312c/fcda8/carousel.png&quot;
+        srcset=&quot;/static/bf926894d989376a82ba794bfb9b312c/12f09/carousel.png 148w,
+/static/bf926894d989376a82ba794bfb9b312c/e4a3f/carousel.png 295w,
+/static/bf926894d989376a82ba794bfb9b312c/fcda8/carousel.png 590w,
+/static/bf926894d989376a82ba794bfb9b312c/efc66/carousel.png 885w,
+/static/bf926894d989376a82ba794bfb9b312c/c83ae/carousel.png 1180w,
+/static/bf926894d989376a82ba794bfb9b312c/5ba90/carousel.png 1604w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -224,7 +224,7 @@ profileRouter
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/andrewcircelli.github.io/static/348202eb91c94c312489a402db6151d5/e9fa0/reg.png&quot;
+    href=&quot;/static/348202eb91c94c312489a402db6151d5/e9fa0/reg.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -237,13 +237,13 @@ profileRouter
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Registration Route&quot;
         title=&quot;Registration Route&quot;
-        src=&quot;/andrewcircelli.github.io/static/348202eb91c94c312489a402db6151d5/fcda8/reg.png&quot;
-        srcset=&quot;/andrewcircelli.github.io/static/348202eb91c94c312489a402db6151d5/12f09/reg.png 148w,
-/andrewcircelli.github.io/static/348202eb91c94c312489a402db6151d5/e4a3f/reg.png 295w,
-/andrewcircelli.github.io/static/348202eb91c94c312489a402db6151d5/fcda8/reg.png 590w,
-/andrewcircelli.github.io/static/348202eb91c94c312489a402db6151d5/efc66/reg.png 885w,
-/andrewcircelli.github.io/static/348202eb91c94c312489a402db6151d5/c83ae/reg.png 1180w,
-/andrewcircelli.github.io/static/348202eb91c94c312489a402db6151d5/e9fa0/reg.png 2292w&quot;
+        src=&quot;/static/348202eb91c94c312489a402db6151d5/fcda8/reg.png&quot;
+        srcset=&quot;/static/348202eb91c94c312489a402db6151d5/12f09/reg.png 148w,
+/static/348202eb91c94c312489a402db6151d5/e4a3f/reg.png 295w,
+/static/348202eb91c94c312489a402db6151d5/fcda8/reg.png 590w,
+/static/348202eb91c94c312489a402db6151d5/efc66/reg.png 885w,
+/static/348202eb91c94c312489a402db6151d5/c83ae/reg.png 1180w,
+/static/348202eb91c94c312489a402db6151d5/e9fa0/reg.png 2292w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -269,7 +269,7 @@ profileRouter
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/andrewcircelli.github.io/static/04efa6f913f696ad5fb91d0efbe0125d/ec09f/state_index.png&quot;
+    href=&quot;/static/04efa6f913f696ad5fb91d0efbe0125d/ec09f/state_index.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -282,13 +282,13 @@ profileRouter
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Componicate with State&quot;
         title=&quot;Componicate with State&quot;
-        src=&quot;/andrewcircelli.github.io/static/04efa6f913f696ad5fb91d0efbe0125d/fcda8/state_index.png&quot;
-        srcset=&quot;/andrewcircelli.github.io/static/04efa6f913f696ad5fb91d0efbe0125d/12f09/state_index.png 148w,
-/andrewcircelli.github.io/static/04efa6f913f696ad5fb91d0efbe0125d/e4a3f/state_index.png 295w,
-/andrewcircelli.github.io/static/04efa6f913f696ad5fb91d0efbe0125d/fcda8/state_index.png 590w,
-/andrewcircelli.github.io/static/04efa6f913f696ad5fb91d0efbe0125d/efc66/state_index.png 885w,
-/andrewcircelli.github.io/static/04efa6f913f696ad5fb91d0efbe0125d/c83ae/state_index.png 1180w,
-/andrewcircelli.github.io/static/04efa6f913f696ad5fb91d0efbe0125d/ec09f/state_index.png 1916w&quot;
+        src=&quot;/static/04efa6f913f696ad5fb91d0efbe0125d/fcda8/state_index.png&quot;
+        srcset=&quot;/static/04efa6f913f696ad5fb91d0efbe0125d/12f09/state_index.png 148w,
+/static/04efa6f913f696ad5fb91d0efbe0125d/e4a3f/state_index.png 295w,
+/static/04efa6f913f696ad5fb91d0efbe0125d/fcda8/state_index.png 590w,
+/static/04efa6f913f696ad5fb91d0efbe0125d/efc66/state_index.png 885w,
+/static/04efa6f913f696ad5fb91d0efbe0125d/c83ae/state_index.png 1180w,
+/static/04efa6f913f696ad5fb91d0efbe0125d/ec09f/state_index.png 1916w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -334,7 +334,7 @@ state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/andrewcircelli.github.io/static/6d6a99cb799ebf726c0c1050141d8b33/2adcb/state_profiles.png&quot;
+    href=&quot;/static/6d6a99cb799ebf726c0c1050141d8b33/2adcb/state_profiles.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -347,13 +347,13 @@ state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Componicate with State&quot;
         title=&quot;Componicate with State&quot;
-        src=&quot;/andrewcircelli.github.io/static/6d6a99cb799ebf726c0c1050141d8b33/fcda8/state_profiles.png&quot;
-        srcset=&quot;/andrewcircelli.github.io/static/6d6a99cb799ebf726c0c1050141d8b33/12f09/state_profiles.png 148w,
-/andrewcircelli.github.io/static/6d6a99cb799ebf726c0c1050141d8b33/e4a3f/state_profiles.png 295w,
-/andrewcircelli.github.io/static/6d6a99cb799ebf726c0c1050141d8b33/fcda8/state_profiles.png 590w,
-/andrewcircelli.github.io/static/6d6a99cb799ebf726c0c1050141d8b33/efc66/state_profiles.png 885w,
-/andrewcircelli.github.io/static/6d6a99cb799ebf726c0c1050141d8b33/c83ae/state_profiles.png 1180w,
-/andrewcircelli.github.io/static/6d6a99cb799ebf726c0c1050141d8b33/2adcb/state_profiles.png 1984w&quot;
+        src=&quot;/static/6d6a99cb799ebf726c0c1050141d8b33/fcda8/state_profiles.png&quot;
+        srcset=&quot;/static/6d6a99cb799ebf726c0c1050141d8b33/12f09/state_profiles.png 148w,
+/static/6d6a99cb799ebf726c0c1050141d8b33/e4a3f/state_profiles.png 295w,
+/static/6d6a99cb799ebf726c0c1050141d8b33/fcda8/state_profiles.png 590w,
+/static/6d6a99cb799ebf726c0c1050141d8b33/efc66/state_profiles.png 885w,
+/static/6d6a99cb799ebf726c0c1050141d8b33/c83ae/state_profiles.png 1180w,
+/static/6d6a99cb799ebf726c0c1050141d8b33/2adcb/state_profiles.png 1984w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
