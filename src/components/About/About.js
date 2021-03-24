@@ -1,5 +1,6 @@
 import React from "react"
 
+import { Hidden } from "react-grid-system"
 import SkewBg from "@common/SkewBg"
 import PageHeader from "@common/PageHeader"
 
@@ -9,23 +10,22 @@ const About = () => {
   return (
     <AboutWrapper id="about">
       <PageHeader>About Me</PageHeader>
-      <SkewBg />
+      <Hidden lg md xs sm>
+        <SkewBg />
+      </Hidden>
       <AboutInfo>
         <p>
           Hi, I'm Andrew Circelli, a motivated full-stack developer from Ohio,
-          currently working at{" "}
-          <a className="about__link" href="www.cerner.com">
-            cerner technology
-          </a>{" "}
-          as a Solution Engineer, Consultant. I am a certified Full Stack
-          Software Developer from Case Western Reserve University. I am
-          committed to mastering the MERN technology stack, with a focus now on
-          React.js.
+          currently working at as a lead technical consultant.I am committed to
+          mastering the MERN technology stack, with a focus now on React.js.
           <br />
           <br />
-          I'm also a self-taught, and certified Salesforce Administrator and App
-          Builder. At Cerner, I am part of a small team building and
-          implementing a new partnership product with Salesforce.
+          At Cerner, I implement, manage, and develop the Cerner and Salesforce
+          partnership product and connector service, HealtheCRM. I work to
+          design and configure the integration platform service to connect
+          healthcare client’s health information and intelligence from the
+          Cerner Big Data and insights platform, HealtheIntent, with consumer
+          engagement insights from Salesforce Health and Marketing Cloud.
         </p>
       </AboutInfo>
     </AboutWrapper>

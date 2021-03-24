@@ -43,7 +43,6 @@ const WordClouds = () => {
     <Parallax
       y={["-350px", "-150px"]}
       slowerScrollRate={true}
-      aria-hidden="true"
       className="skills__word-clouds"
     >
       <p style={{ top: 50, left: "100%", fontSize: 23 }}>Node.js</p>

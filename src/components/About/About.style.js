@@ -2,44 +2,23 @@ import styled from "styled-components"
 
 export const AboutWrapper = styled.section`
   margin-bottom: 200px;
-
-  @media ${props => props.theme.media.tablet} {
-    position: relative;
-  }
-  .quotes__wrapper {
-    position: relative;
-    top: 80px;
-
-    @media ${props => props.theme.media.tablet} {
-      top: 40px;
-    }
-  }
 `
 
 export const AboutInfo = styled.article`
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 200px;
+  justify-content: flex-end;
 
-  > div:first-child {
+  /* > div:first-child {
     margin-right: 10%;
-  }
+  } */
 
   p {
+    max-width: 50%;
     color: black;
   }
 
-  .about__link {
-    color: ${p => (p.theme.dark ? p.theme.primaryColor : "#111")};
-  }
   @media ${props => props.theme.media.tablet} {
     flex-direction: column;
     margin-top: 120px;
-
-    > div:first-child {
-      margin-right: 0;
-      margin-bottom: 30px;
-    }
   }
 `

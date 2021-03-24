@@ -1,25 +1,15 @@
 import styled from "styled-components"
 
 const SkewBg = styled.div`
+  border-radius: 10px;
   position: absolute;
   opacity: 0.7;
-  left: 0;
-  width: 100%;
-  min-height: 350px;
+  right: 0;
+  margin-right: 10px;
+  width: 70%;
+  min-height: 250px;
   background: ${p =>
     p.theme.dark ? p.theme.secondaryColor : p.theme.gradient};
-  /* transform: skewY(-2deg); */
-  /* z-index: -1; */
-  pointer-events: none;
-
-  @media ${props => props.theme.media.tablet} {
-    width: unset;
-    height: 90%;
-    top: 100px;
-    left: -16px;
-    right: -16px;
-    bottom: 0;
-  }
 `
 
 export default SkewBg
