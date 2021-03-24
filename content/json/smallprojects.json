@@ -10,7 +10,7 @@
   {
     "title": "Express Note",
     "links": {
-      "demo": "https://github.com/andrewcircelli/ExpressNote",
+      "demo": "https://youtu.be/_hbPVi4XXtc",
       "src": "https://github.com/andrewcircelli/ExpressNote"
     },
     "description": "Collect your thoughts and get ahead with Express Note. A Node-Express application."
@@ -26,17 +26,25 @@
   {
     "title": "Geek CLI",
     "links": {
-      "demo": "https://github.com/andrewcircelli/geek-cli",
+      "demo": "https://youtu.be/7zQ6AM5_yxY",
       "src": "https://github.com/andrewcircelli/geek-cli"
     },
-    "description": "Build our your software engineering team with this command-line-interface app hosted on Heroku."
+    "description": "Build our your software engineering team with this command-line-interface app, nerd."
   },
   {
     "title": "jPlanner",
     "links": {
-      "demo": "https://github.com/andrewcircelli/jPlanner",
+      "demo": "https://youtu.be/K1jEbbqRiN4",
       "src": "https://github.com/andrewcircelli/jPlanner"
     },
     "description": "Day Plan with the jPlanner and dive deep to explore some of my jQuery skills."
+  },
+  {
+    "title": "Simple Weather",
+    "links": {
+      "demo": "https://youtu.be/55WLwQN64XE",
+      "src": "https://github.com/andrewcircelli/SimpleWeather"
+    },
+    "description": "Pack appropriately. And before you go, see how this works with OpenWeather API."
   }
 ]

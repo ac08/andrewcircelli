@@ -6,14 +6,15 @@ export const AboutWrapper = styled.section`
 
 export const AboutInfo = styled.article`
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 200px;
 
-  /* > div:first-child {
+  > div:first-child {
     margin-right: 10%;
-  } */
+  }
 
   p {
-    max-width: 50%;
     color: black;
   }
 

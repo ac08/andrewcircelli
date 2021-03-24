@@ -5,9 +5,10 @@ const SkewBg = styled.div`
   position: absolute;
   opacity: 0.7;
   right: 0;
-  margin-right: 10px;
-  width: 70%;
-  min-height: 250px;
+  margin-right: 1%;
+  margin-left: 1%;
+  width: 98%;
+  min-height: 350px;
   background: ${p =>
     p.theme.dark ? p.theme.secondaryColor : p.theme.gradient};
 `
