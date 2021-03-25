@@ -21,9 +21,9 @@ But if you are here, you know all about that. I want to use this post to illustr
 
 Table of Contents
 
-- [HTTP Methods used in REST APIs](#http-methods-used-in-rest-apis)
-- [Let's Build on That](#lets-build-on-that)
-- [My New Obsession is GraphQL](#my-new-obsession-is-graphQL)
+- [HTTP Methods used in REST APIs](#HTTP-Methods-used-in-REST-APIs)
+- [Let's Build on That](#Lets-Build-on-That)
+- [My New Obsession is GraphQL](#My-New-Obsession-is-GraphQL)
 
 ## HTTP Methods used in REST APIs
 

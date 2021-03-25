@@ -17,15 +17,15 @@ const About = () => {
         <p>
           Hi, I'm Andrew Circelli, a motivated full-stack developer from Ohio,
           currently working Cerner Corporation as a lead technical consultant.
-          Because I am of my JavaScript background I am drawn to the MERN stack
-          architecture. Now, I am especialy focused what I can do with React.js
-          and GraphQL.
-          <br />
-          <br />
           At cerner, I am part of a small team working to introduce and
           implement cerner's integration service and application, HealtheCRM.
           The solution provides a prebuilt mapping to connect cerner's big data
           and intelligence platform with salesforce CRM.
+          <br />
+          <br />
+          Because of my JavaScript background I am drawn to the MERN stack
+          architecture. Now, I am especialy focused what I can do with React.js
+          and GraphQL.
         </p>
       </AboutInfo>
     </AboutWrapper>
