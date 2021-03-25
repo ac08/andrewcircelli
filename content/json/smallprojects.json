@@ -2,7 +2,7 @@
   {
     "title": "Burger Eats",
     "links": {
-      "demo": "https://andrewcircelli-heroku-burger.herokuapp.com/",
+      "demo": "https://youtu.be/_hbPVi4XXtc",
       "src": "https://github.com/andrewcircelli/BurgerEats"
     },
     "description": "Express yourself! Burger Eats is a logger web application and is jam packed with modern technologies to deliver a viable to track your (burger) eats!"
@@ -10,7 +10,7 @@
   {
     "title": "Express Note",
     "links": {
-      "demo": "https://youtu.be/_hbPVi4XXtc",
+      "demo": "https://github.com/andrewcircelli/ExpressNote",
       "src": "https://github.com/andrewcircelli/ExpressNote"
     },
     "description": "Collect your thoughts and get ahead with Express Note. A Node-Express application."
