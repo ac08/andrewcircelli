@@ -24,8 +24,8 @@ const About = () => {
           <br />
           <br />
           Because of my JavaScript background I am drawn to the MERN stack
-          architecture. Now, I am especialy focused what I can do with React.js
-          and GraphQL.
+          architecture. Now, I am especialy focused on what I can do with
+          React.js and GraphQL.
         </p>
       </AboutInfo>
     </AboutWrapper>
