@@ -51,6 +51,8 @@ export const themelight = {
 export const themedark = {
   dark: true,
   bg: "#191919",
+  bgImage: "radial-gradient(#303030 0.9px, #191919 0.9px)",
+  bgSize: "8px 8px",
   primaryColor: "#6D83F2",
   secondaryColor: "#232323",
   accentColor: "#303030",
