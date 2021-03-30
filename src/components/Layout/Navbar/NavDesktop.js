@@ -1,5 +1,5 @@
 import React from "react"
-import { GiWaterDrop } from "react-icons/gi"
+import logo from "@src/images/fire-and-ice.png"
 
 import Link from "gatsby-link"
 import { Link as SLink } from "react-scroll"
@@ -12,8 +12,8 @@ import NavLinks from "./NavLinks"
 const NavDesktop = () => {
   return (
     <>
-      <SLink className="logo" smooth offset={-100} hashSpy={true} to="home">
-        <GiWaterDrop className="grid-icon" />
+      <SLink smooth offset={-100} hashSpy={true} to="home">
+        <img src={logo} alt="logo" className="drop-icon logo" />
       </SLink>
 
       <nav>

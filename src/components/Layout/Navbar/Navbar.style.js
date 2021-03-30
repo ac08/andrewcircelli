@@ -19,7 +19,7 @@ export const NavWrapper = styled.div`
     margin-right: auto;
     cursor: pointer;
   }
-  .grid-icon {
+  .drop-icon {
     height: 25px;
     width: 25px;
   }

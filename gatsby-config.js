@@ -163,7 +163,7 @@ module.exports = {
         background_color: `#6D83F2`,
         theme_color: `#6D83F2`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/fire-and-ice.png`, // This path is relative to the root of the site.
       },
     },
     // HELMET
