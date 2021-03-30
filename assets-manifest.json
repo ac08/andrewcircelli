@@ -1,4 +1,5 @@
 {
   "main.js": "render-page.js",
-  "render-page.js.map": "render-page.js.map"
+  "render-page.js.map": "render-page.js.map",
+  "static/fire-and-ice.png": "static/fire-and-ice-9d6ad625100ef5b4034d8c96d391ebb3.png"
 }
