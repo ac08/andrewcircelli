@@ -72,7 +72,7 @@ Let's check out an example from one of my earlier projects, _CreativeOdds_:
   [...]
 ```
 
-This is pretty introductory stuff here. But it is the basis of learning API management. Here, I send off an ajax (HTML) GET request to a predefined endpoint (Sportsdata.io API). "With ajax, web applications can send and retrieve data from a server asynchronously without interfering with the display and behavior of the existing page" **wikipedia**
+This is pretty introductory stuff here. But it is the basis of interacting with a third party API. Here, I send off an ajax HTML GET request to a predefined endpoint (Sportsdata.io API). "With ajax, web applications can send and retrieve data from a server asynchronously without interfering with the display and behavior of the existing page" **wikipedia**
 
 So when the page loads, it calls out to this endpoint requesting some data from the service's underlying database. And _time stops_ until a response is returned from the API. The returned data is captured in our variable _response_. And with some niffty JavaScript, I can pin down the fields I am looking for and push them to an array for further processing on the front-end.
 
@@ -134,7 +134,7 @@ The end product is a lean array populated with the completed NFL games for the w
 
 ## Let's Build on That
 
-Outside of the two above projects and some use with other public APIs, most of my interfaces I have built are done so directly between my front-end client and back-end server and database. This is pretty standard in full-stack development and I am excited to share some of the work I have done for my _Full Stack Futures_ project:
+Outside of the two above projects and some use with other public APIs, most of my interfaces I have built are done so directly between my front-end client and back-end server and database. This is pretty standard in full stack development and I am excited to share some of the work I have done for my _Full Stack Futures_ project:
 
 ```jsx
 // Full Stack Futures repo - Home.js
@@ -233,6 +233,7 @@ But what about that cool carousel on the Home page of this site? That also uses 
 // andrewcircelli.github.io rep - LearningXP.js
 
 [...]
+
 const LearningXP = () => {
   const smallprojects = useStaticQuery(
     graphql`

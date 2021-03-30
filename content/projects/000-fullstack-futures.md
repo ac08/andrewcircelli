@@ -6,8 +6,8 @@ tags: null
 excerpt:
   Hey all! If you have read my blog, you are likely aware of one of my finer coding
   projects. And although there is still work to be done, I am happy to share my progress.
-  fullStack futures is a new take on LinkedIn. No longer are you required to be a business
-  professional to have a legitimate online presence. Use fullStack Futures as a central hub to maintain your, or your child’s online profile; and to allow recruiters to contact you about opportunities in your select field.
+  Full Stack futures is a new take on LinkedIn. No longer are you required to be a business
+  professional to have a legitimate online presence. Use Full Stack Futures as a central hub to maintain your, or your child’s online profile; and to allow recruiters to contact you about opportunities in your select field.
 
 info:
   tech: [MongoDB, Express-React-Node.js Stack, REST API]

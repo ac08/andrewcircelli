@@ -52,7 +52,7 @@ Each "ProfileHome" Page Component numbered above will launch a series of localiz
 
 ### Root Route - Conditional Rendering
 
-Now, let's revisit the conditional rendering portion of the root route (/). If the end user of the application is "signed in" and authenticated (passport) to visit the site, they will be presented with the _GetProfile_ component which will allow the user to create a site profile that will be associated with the user's account. Otherwise, if the user is not authenticated, they will guided through the GetAuthenticated workflow. Following the completion of the GetAuthenticated workflow and is signed in, the user will then be presented with the _GetProfile_ component. Pretty cool!
+Now, let's revisit the conditional rendering portion of the root route (/). If the end user of the application is "signed in" and authenticated (passport) to visit the site, they will be presented with the _GetProfile_ component which will allow the user to create a site profile that will be associated with the user's account. Otherwise, if the user is not authenticated, they will be guided through the GetAuthenticated workflow. Following the completion of the GetAuthenticated workflow and is signed in, the user will then be presented with the _GetProfile_ component. Pretty cool!
 
 ### One More Route - Reg Route
 
@@ -104,7 +104,7 @@ setLoginStatus = userDetails => {
 **isSignedIn** is use immediately to determine whether or not to render the _GetProfile_ component or to guide the end user through the GetAuthenticated workflow:
 
 ```jsx
-// App.jsx
+// Full Stack Futures repo - App.jsx
 <Route exact path={"/"}>
   {this.state.isSignedIn ? (
     <>
@@ -119,6 +119,7 @@ setLoginStatus = userDetails => {
 The end product of the GetAuthenticated workflow is to set the **LoginStatus** to _true_ and the **signedInUser** to the _userDetails_. _userDetails_ (username and password) is manufactured through the declaration of state on the _GetAuthenticated_ component:
 
 ```jsx
+// Full Stack Futures repo - App.jsx
 const [user, setUser] = useState({
   username: "",
   password: "",
@@ -134,6 +135,7 @@ Let's start with the **useParams React Hook** called on the _Home_ component. Th
 Let's talk about the axios call mentioned there... it is really the workhorse of the application.
 
 ```jsx
+// Full Stack Futures repo - Home.jsx
 const Home = props => {
   const [profiles, setProfiles] = useState([])
   const [error, setError] = useState(null)

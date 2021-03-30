@@ -7,7 +7,7 @@ path: using-mongoose-discriminators
 type: blog
 ---
 
-Hey all! A few weeks ago in designing my FullStackFutures web application, I accepted the challenge to identify a functional solution to the project's MongoDB schema business requirement.
+Hey all! A few weeks ago in designing my _Full Stack Futures_ web application, I accepted the challenge to identify a functional solution to the project's MongoDB schema business requirement.
 
 Since I completed this challenge I thought I should share briefly what I learned about this schema design, so let's get
 started.
@@ -98,7 +98,7 @@ So, different profile types (athlete, military, student), with slightly differen
 First step is to create the base (parent) schema. These are properties that all child schemas will inherit from:
 
 ```javascript
-// base.model.js
+// Full Stack Futures repo - base.model.js
 const baseOptions = {
   discriminatorKey: "profileType",
 }
@@ -133,7 +133,7 @@ const ProfileModel = mongoose.model("Profile", Base)
 That was simple enough. Now let's extend the Profile Model, for those profiles classified as an athlete:
 
 ```javascript
-// athlete.model.js
+// Full Stack Futures repo - athlete.model.js
 const athleteSchema = new Schema({
   sport: {
     type: String,
@@ -151,7 +151,7 @@ See what we did there? We created the Athelete's Schema as we normally would. Bu
 Now let's extend the Profile Schema once more. This time for those profiles classified as a "student":
 
 ```javascript
-// student.model.js
+// Full Stack Futures repo - student.model.js
 const studentSchema = new Schema({
   university: { type: String, required: true },
   GPA: { type: Number },

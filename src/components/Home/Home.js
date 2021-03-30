@@ -52,9 +52,13 @@ const Home = () => {
         <div className="home__text">
           <p>Hello, I’m</p>
           <h1>ANDREW CIRCELLI</h1>
-          <p className="adjust">CREATIVE FULL-STACK DEVELOPER</p>
+          <p className="adjust">CREATIVE FULL STACK DEVELOPER</p>
           <div className="home__actions">
-            <Button className="action" as="a" href="#">
+            <Button
+              className="action"
+              as="a"
+              href="//drive.google.com/file/d/1mscBpJULP4QuO1DBw2ujcGOhGlBOCM-L/view?usp=sharing"
+            >
               Download Resume
             </Button>
             <div className="home__social">

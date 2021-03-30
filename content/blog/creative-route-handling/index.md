@@ -9,7 +9,7 @@ type: blog
 
 Create Read Update Delete (CRUD) operations are a fundamental piece of any backend software. And the most popular backend web application framework for Node.js is undoubtedly Express.js.
 
-Express.js was introduced to me early on in my coding journey, and I love what I can do with it. So I was excited when I was tasked to create an API to handle frontend data requests for an exciting professional networking application, FullStackFutures.
+Express.js was introduced to me early on in my coding journey, and I love what I can do with it. So I was excited when I was tasked to create an API to handle front end data requests for an exciting professional networking application, _Full Stack Futures_.
 
 I will use this post to walk through what I believe to be a confident backend solution to my application's routing challenge.
 
@@ -42,7 +42,7 @@ app.use("/api/profiles", profileRouter)
 ```
 
 ```javascript
-// profile-routes.js
+// Full Stack Future repo - profile-routes.js
 profileRouter
   .route("/all")
   // GET: get list of all profiles using Promise syntax
@@ -76,7 +76,7 @@ This is a snippet of code from my FullStackFutures web application. And here I i
 This route _("/api/profiles/all")_ responds to an API GET request from the client. The API request is calling for the server to not only return all profile documents in the application's MongoDB collection, _profiles_, but also ensure the user is logged in and authenticated to access this route. Let's swipe up and see the remainder of the profileRouter.
 
 ```javascript
-// profile-routes.js
+// Full Stack Future repo - profile-routes.js
 profileRouter
   .route("/:profileType")
   // extend express.request to carry db."model" based on profile type
@@ -121,13 +121,13 @@ profileRouter
   })
 ```
 
-This is where we get creative. The route _("/api/profiles/:profileType")_ integrates a request param (_:profileType_) and responds to either an API GET or POST request. As soon as the requests connects to the server, the server retreives the request param and passes its value to the request (req) object. This value is can also be attached to the _req.locals_ object, but I preferred to set the variable directly onto the request body. The value will persist for the lifecycle of the request.
+This is where we get creative. The route _("/api/profiles/:profileType")_ integrates a request param (_:profileType_) and responds to either an HTML GET or POST request. As soon as the requests connects to the server, the server retreives the request param and passes its value to the request (req) object. This value is can also be attached to the _req.locals_ object, but I preferred to set the variable directly onto the request body. The value will persist for the lifecycle of the request.
 
 The value of the request param is also thrown into a switch-case statement. The switch-case statement will set another variable on the request.body (_req.Model_), and this time, it will equate to the a specific data model defined.
 
-Now that we have set the stage, we can walk through the API GET and POST requests that this route handles. All API GET requests to this route, will return all profile documents in the _profiles_ collection where the _profileType_ is set to the value stored on _req.profileType_ (for more information on this application's database schema see my post [here](/blog/using-mongoose-discriminators).
+Now that we have set the stage, we can walk through the HTML GET and POST requests that this route handles. All HTML GET requests to this route, will return all profile documents in the _profiles_ collection where the _profileType_ is set to the value stored on _req.profileType_ (for more information on this application's database schema see my post [here](/blog/using-mongoose-discriminators).
 
-Even cooler, when an API POST request is sent to this route, a new profile document will be created based on the model version stored on the request object (_req.Model_).
+Even cooler, when an HTML POST request is sent to this route, a new profile document will be created based on the model version stored on the request object (_req.Model_).
 
 I hope you enjoyed my router design and welcome you to use a similar design in your projects in the future.
 
