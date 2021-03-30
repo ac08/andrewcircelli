@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import styled from "styled-components"
 
 import { ThemeProvider } from "styled-components"
@@ -24,16 +24,27 @@ const RootWrapper = styled(Wrapper)`
 `
 
 const Layout = ({ children }) => {
+  const stored = localStorage.getItem("isDarkMode")
+  const [isDarkMode, setIsDarkMode] = useState(stored === "true" ? true : false)
   return (
-    <ThemeProvider theme={themelight}>
+    <ThemeProvider theme={isDarkMode ? themedark : themelight}>
       <>
         <GlobalStyle />
-
-        <ThemeToggleContext.Provider value={{ themelight }}>
+        <ThemeToggleContext.Provider>
           <Navbar />
         </ThemeToggleContext.Provider>
 
-        <RootWrapper>{children}</RootWrapper>
+        <RootWrapper>
+          <button
+            onClick={() => {
+              setIsDarkMode(!isDarkMode)
+              localStorage.setItem("isDarkMode", !isDarkMode)
+            }}
+          >
+            ToggleThemeHere
+          </button>
+          {children}
+        </RootWrapper>
       </>
     </ThemeProvider>
   )

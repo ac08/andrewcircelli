@@ -7,7 +7,7 @@ import { Link as SLink } from "react-scroll"
 import { NavItems, NavItem } from "./Navbar.style"
 
 import NavLinks from "./NavLinks"
-// import ToggleSwitch from "@common/ToggleSwitch";
+// import ToggleSwitch from "@common/ToggleSwitch"
 
 const NavDesktop = () => {
   return (
