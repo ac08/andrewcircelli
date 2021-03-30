@@ -1,26 +1,26 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 
-import { HomeCardWrapper, ClassCardWrapper } from "./HomeCard.style";
+import { HomeCardWrapper, ClassCardWrapper } from "./HomeCard.style"
 
 // internet function for repeating sting elements
 function repeatString(str, count) {
-  let maxCount = str.length * count;
-  count = Math.floor(Math.log(count) / Math.log(2));
+  let maxCount = str.length * count
+  count = Math.floor(Math.log(count) / Math.log(2))
   while (count) {
-    str += str;
-    count--;
+    str += str
+    count--
   }
-  str += str.substring(0, maxCount - str.length);
-  return str;
+  str += str.substring(0, maxCount - str.length)
+  return str
 }
 
 export const ClassCard = () => {
-  const [text, setText] = useState(`new Date().getFullYear() - 1992;`);
-  const age = new Date().getFullYear() - 1992 - 1;
+  const [text, setText] = useState(`new Date().getFullYear() - 1992;`)
+  const age = new Date().getFullYear() - 1992 - 1
   const changeText = () => {
-    let space = repeatString(" ", 54);
-    setText(age + ";" + space);
-  };
+    let space = repeatString(" ", 54)
+    setText(age + ";" + space)
+  }
   return (
     <ClassCardWrapper>
       <pre>
@@ -41,13 +41,13 @@ export const ClassCard = () => {
       <pre>6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {"}"}</pre>
       <pre>7&nbsp;&nbsp;{"}"}</pre>
     </ClassCardWrapper>
-  );
-};
+  )
+}
 
 export const HomeCard = () => {
   return (
     <HomeCardWrapper>
       <ClassCard />
     </HomeCardWrapper>
-  );
-};
+  )
+}

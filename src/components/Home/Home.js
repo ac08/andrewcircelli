@@ -11,17 +11,17 @@ import { Card, CardIcon, CardText, CardTitle } from "@common/Card"
 import { HomeCard } from "./HomeCard"
 import { HomeWrapper, Intro } from "./Home.style"
 import { CgStack } from "react-icons/cg"
-import { GiPaintBrush } from "react-icons/gi"
+import { VscDebugDisconnect } from "react-icons/vsc"
 import { BsCodeSlash } from "react-icons/bs"
 
 const ThingsImDoing = () => (
   <Flex justify="space-between" align="center">
     <Card>
       <CardIcon>{<CgStack icon="stack" />}</CardIcon>
-      <CardTitle>FullStack</CardTitle>
+      <CardTitle>Stacking</CardTitle>
       <CardText>
-        I am capable on the backEnd, but am currently building data-driven,
-        React-packed, fullStack web applications.
+        I am capable on the back-end, but am currently building data-driven,
+        React-packed, full stack web applications.
       </CardText>
     </Card>
     <Card>
@@ -32,11 +32,10 @@ const ThingsImDoing = () => (
       </CardText>
     </Card>
     <Card>
-      <CardIcon>{<GiPaintBrush icon="paint" />}</CardIcon>
-      <CardTitle>Creating</CardTitle>
+      <CardIcon>{<VscDebugDisconnect icon="connect" />}</CardIcon>
+      <CardTitle>Connecting</CardTitle>
       <CardText>
-        I am looking to see how I can merge my skills on the Salesforce Platform
-        with my FullStack toolset.
+        Integrating big data and intelligence with consumer engagement insights.
       </CardText>
     </Card>
   </Flex>

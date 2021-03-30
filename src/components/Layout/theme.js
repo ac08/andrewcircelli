@@ -48,18 +48,6 @@ export const themelight = {
   ...themeCommon,
 }
 
-export const themedarkblue = {
-  dark: true,
-  bg: "#0B0D18",
-  primaryColor: "#6D83F2",
-  secondaryColor: "#0F1221",
-  accentColor: "#15182E",
-  primaryBlack: "#F8F8F8",
-  elevation0: "#6D83F2",
-  primaryText: "#F8F8F8",
-  ...themeCommon,
-}
-
 export const themedark = {
   dark: true,
   bg: "#191919",

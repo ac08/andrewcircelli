@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import Flex from './Flex';
+import styled from "styled-components"
+import Flex from "./Flex"
 
 export const Card = styled.div`
   margin: 10px;
@@ -23,7 +23,7 @@ export const Card = styled.div`
     flex: 1 1 100%;
     margin: 20px auto;
   }
-`;
+`
 
 export const CardIcon = styled.div`
   width: 100px;
@@ -37,16 +37,16 @@ export const CardIcon = styled.div`
     line-height: 100px;
     font-size: 2.2rem;
   }
-`;
+`
 
 export const CardTitle = styled.h3`
   font-weight: normal;
   color: ${p => (p.theme.dark ? p.theme.primaryText : p.theme.primaryColor)};
-`;
+`
 
 export const CardText = styled.p`
   font-size: 14px;
-`;
+`
 
 export const CardFooter = styled(Flex)`
   width: 100%;
@@ -55,4 +55,4 @@ export const CardFooter = styled(Flex)`
   a {
     margin-left: 5px;
   }
-`;
+`
