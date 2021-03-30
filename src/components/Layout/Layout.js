@@ -1,14 +1,15 @@
-import React, { useState } from "react"
+import React from "react"
 import styled from "styled-components"
-
-import { ThemeProvider } from "styled-components"
-import { themelight, themedark } from "./theme"
 
 import Wrapper from "@common/Wrapper/"
 import Navbar from "./Navbar/Navbar"
 
+import { ThemeProvider } from "styled-components"
+import { themelight, themedark } from "./theme"
 import GlobalStyle from "@src/styles/GlobalStyle"
 import ThemeToggleContext from "./ThemeToggleContext"
+
+import { useSafeMode } from "@src/hooks/useSafeMode"
 
 import { setConfiguration } from "react-grid-system"
 setConfiguration({ breakpoints: [576, 769, 992, 1200] })
@@ -24,27 +25,19 @@ const RootWrapper = styled(Wrapper)`
 `
 
 const Layout = ({ children }) => {
-  const stored = localStorage.getItem("isDarkMode")
-  const [isDarkMode, setIsDarkMode] = useState(stored === "true" ? true : false)
+  const [theme, toggleTheme] = useSafeMode()
+
+  const currentTheme = theme === "light" ? themelight : themedark
+
   return (
-    <ThemeProvider theme={isDarkMode ? themedark : themelight}>
+    <ThemeProvider theme={currentTheme}>
       <>
         <GlobalStyle />
-        <ThemeToggleContext.Provider>
+        <ThemeToggleContext.Provider value={{ theme, toggleTheme }}>
           <Navbar />
         </ThemeToggleContext.Provider>
 
-        <RootWrapper>
-          <button
-            onClick={() => {
-              setIsDarkMode(!isDarkMode)
-              localStorage.setItem("isDarkMode", !isDarkMode)
-            }}
-          >
-            ToggleThemeHere
-          </button>
-          {children}
-        </RootWrapper>
+        <RootWrapper>{children}</RootWrapper>
       </>
     </ThemeProvider>
   )

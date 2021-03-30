@@ -3,6 +3,7 @@ import logo from "@src/images/fire-and-ice.png"
 
 import Link from "gatsby-link"
 import { Link as SLink } from "react-scroll"
+import ToggleSwitch from "@common/ToggleSwitch"
 
 import { NavItems, NavItem } from "./Navbar.style"
 
@@ -21,6 +22,9 @@ const NavDesktop = () => {
           <NavLinks NavItem={NavItem} />
           <NavItem>
             <Link to="/blog">blog</Link>
+          </NavItem>
+          <NavItem>
+            <ToggleSwitch />
           </NavItem>
         </NavItems>
       </nav>
