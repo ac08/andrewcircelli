@@ -28,7 +28,8 @@ const ThingsImDoing = () => (
       <CardIcon>{<BsCodeSlash icon="code" />}</CardIcon>
       <CardTitle>Learning</CardTitle>
       <CardText>
-        I am currently learning more about React.js and JamStack.
+        I am currently learning more about React.js, JamStack, and Amazon Alexa
+        Skills.
       </CardText>
     </Card>
     <Card>

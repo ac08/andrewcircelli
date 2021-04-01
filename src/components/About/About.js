@@ -25,7 +25,7 @@ const About = () => {
           <br />
           Because of my JavaScript background I am drawn to the MERN stack
           architecture. Now, I am especialy focused on what I can do with
-          React.js and GraphQL.
+          React.js, GraphQL, and the Amazon Alexa Platform.
         </p>
       </AboutInfo>
     </AboutWrapper>
