@@ -58,7 +58,7 @@ const Home = () => {
             <Button
               className="action"
               as="a"
-              href="//drive.google.com/file/d/1mscBpJULP4QuO1DBw2ujcGOhGlBOCM-L/view?usp=sharing"
+              href="//drive.google.com/file/d/1fgRvlbWfurs6HVSNSee2P0SyQEAIhYY3/view?usp=sharing"
             >
               Download Resume
             </Button>
