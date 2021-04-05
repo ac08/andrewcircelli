@@ -26,14 +26,22 @@ Check it out on my GitHub page at the bottom.
 
 ## Performant Routing
 
-Backend programming is my strong suit. It requires you to understand how the application works - the architecture, the database, and the application logic responsible for serving datasets to the user.
+Back-end programming is my strong suit. It requires you to understand how the application works - the Node.js architecture, the database, and the application logic responsible for serving datasets to the user.
 
-The focus of this post is routing. And Express.js provides a sophisticated routing mechanism capable of handling dynamic requests from the client.
+The focus of this post is routing. And Express.js is the technology I use to handle routing. Express.js is a routing and middleware web framework for Node.js and is used alongside client-side frameworks like React.js to build full stack applications.
 
 > Routing is a feature that lets web applications retain webpage states through URLs. - **back4app**
 
 ```javascript
-// server.js
+// Full Stack Futures repo - server.js
+// sets up the Express app instance
+const express = require("express")
+const app = express()
+
+// sets up body parsing middleware in order to populate req.body
+app.use(express.json()) // for parsing application/json
+app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
+
 const profileRouter = require("./routes/profile-routes")
 const authRouter = require("./routes/auth-routes")
 
@@ -41,8 +49,20 @@ app.use("/api/auth", authRouter)
 app.use("/api/profiles", profileRouter)
 ```
 
+The above demonstrates what part of a web applications server.js file could look like. The server will listen for a specific type of request at a specific endpoint (URL) and when it hears that request, it will respond.
+
+Moreover, the body parsing middleware functions shown here are built into Express and run on the server between the time a server receives a request, and a server sends out a response. Thus, the order of middleware design on the server matters in how it runs (top to bottom).
+
+> Initialize middleware with app dot use
+
+The final pieces of code are examples of custom middleware. And specifically, they are application-level middleware as they are bound to an instance of the app object. The functions are executed every time the app receives a request.
+
 ```javascript
-// Full Stack Future repo - profile-routes.js
+// Full Stack Futures repo - profile-routes.js
+const express = require("express")
+const profileRouter = express.Router()
+const db = require("../models")
+
 profileRouter
   .route("/all")
   // GET: get list of all profiles using Promise syntax
@@ -69,19 +89,22 @@ profileRouter
   })
 ```
 
-This is a snippet of code from my FullStackFutures web application. And here I implement a feature of Express.js Routing Mechanism, _Route Handlers_ (**profileRouter**).
+In the above snippet of code I implement more middleware. This time at the router-level. Router-level middleware works in the same way as application-level middleware, except it is bound to an instance of express dot Router().
+
+For some context, the top-level express object has a Router() method that creates a new router object - named **profileRouter** in my application. Once I have created a router object, I add middleware and HTTP method routes (such as GET, PUT, POST) to it.
 
 > A **Route Handler** is code that is looking for a request to a specific incoming URL such as _"/login"_ and often a specific HTTP verb such as POST and has specific code for handling that precise URL and verb. - **stack overflow**
 
-This route _("/api/profiles/all")_ responds to an API GET request from the client. The API request is calling for the server to not only return all profile documents in the application's MongoDB collection, _profiles_, but also ensure the user is logged in and authenticated to access this route. Let's swipe up and see the remainder of the profileRouter.
+This route _("/api/profiles/all")_ responds to an API GET request from the client. The API request is calling for the server to not only return all profile documents in the application's MongoDB collection, _profiles_, but also ensure the user is logged in and authenticated to access this route. Let's swipe up and see the remainder of the **profileRouter**.
 
 ```javascript
-// Full Stack Future repo - profile-routes.js
+// Full Stack Futures repo - profile-routes.js
 profileRouter
   .route("/:profileType")
-  // extend express.request to carry db."model" based on profile type
-  // used on any subsequent POST routes to create profile given different schemas
+  // extend express.request object to carry db.[model] based on the profile type
+  // to be used on any subsequent POST routes to create profile given different schemas
   .all((req, res, next) => {
+    // request (req) object is available immediately
     const { profileType } = req.params
     req.profileType = profileType
     switch (profileType) {
@@ -121,11 +144,15 @@ profileRouter
   })
 ```
 
-This is where we get creative. The route _("/api/profiles/:profileType")_ integrates a request param (_:profileType_) and responds to either an HTML GET or POST request. As soon as the requests connects to the server, the server retreives the request param and passes its value to the request (req) object. This value is can also be attached to the _req.locals_ object, but I preferred to set the variable directly onto the request body. The value will persist for the lifecycle of the request.
+This is where we get creative. The route _("/api/profiles/:profileType")_ integrates a request param (_:profileType_) and responds to either an HTML GET or POST request. The "profileType" property is available on req dot params dot profileType. And this object defaults to _{}_.
 
-The value of the request param is also thrown into a switch-case statement. The switch-case statement will set another variable on the request.body (_req.Model_), and this time, it will equate to the a specific data model defined.
+> The req dot params property is an object containing properties mapped to the named route “parameters”.
 
-Now that we have set the stage, we can walk through the HTML GET and POST requests that this route handles. All HTML GET requests to this route, will return all profile documents in the _profiles_ collection where the _profileType_ is set to the value stored on _req.profileType_ (for more information on this application's database schema see my post [here](/blog/using-mongoose-discriminators).
+As soon as the request connects to the server, the "profileType" property, value is destructured from the request (req) dot params property, object. I immediately direct the destructured variable to the req body. This variable could have also been attached to the _req.locals_ object. The variable, value will persist for the lifecycle of the request.
+
+The "profileType" cooridnates the switch-case statement. And depending on the value of "profileType", the switch-case statement will modify the req.body (_req.Model_), and this time, it will equate to the specific Mongoose data model defined. We now have a model d
+
+Now that we have set the stage, we can walk through the HTML GET and POST requests that this route handles. All HTML GET requests to this route will return all profile documents in the _profiles_ collection where the _profileType_ is set to the value stored on _req.profileType_ (for more information on this application's database schema see my post [here](/blog/using-mongoose-discriminators).
 
 Even cooler, when an HTML POST request is sent to this route, a new profile document will be created based on the model version stored on the request object (_req.Model_).
 
